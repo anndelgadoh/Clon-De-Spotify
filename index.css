@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Diseño Header*/
+
+header{
+    margin: 0;
+    display: flex;
+}
+
+.logo{
+    width: 125vh;
+}
+
+.logo > img{
+    width: 300px;
+    margin: 20px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+}
+
+ul{
+    width: 45vw;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+li{
+    font-size: 30px;
+}
+
+li:hover{
+    color: rgba(4,180,116);
+}
+
+/*Diseño Principal */
+
+.principal{
+    display: flex;
+    flex-direction: column;
+    height: 770px;
+    background-image: url("./imagenes/landing.jpg");
+    background-size: cover;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    font-size: 120px;
+}
+
+h2{
+    font-size: 40px;
+}
+
+/*Diseño Medio*/
+h3{
+    padding: 30px;
+    text-align: center;
+    text-decoration: underline rgba(4,180,116);
+    font-size: 40px;
+}
+
+/*Diseño cental/contenedor*/
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+    height: 350px;
+}
+
+.contenedor > div{
+    width: 480px;
+    display: flex;
+    margin: 20px;
+    flex-direction: column;
+}
+
+.contenedor > div > img{
+    width: 190px;
+    height: 150px;
+    align-self: center;
+}
+
+.contenedor > div > h4{
+    color: rgba(4,180,116);
+    font-size: 32px;
+    padding: 10px;
+    text-align: center;
+}
+
+.contenedor > div > p{
+    text-align: center;
+    font-size: 32pxs;
+}
+
+/*Footer*/
+
+.final{
+    background-color: rgba(4,180,116);
+    display: flex;
+    height: 850px;
+}
+
+.texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 50px;
+    width: 40vw;
+    color: white;
+}
+
+.texto > h5{
+    text-decoration: underline;
+    font-size: 40px;
+    font-weight: normal;
+}
+
+.texto > h6{ 
+    margin-top: 30px;
+    font-size: 36px;
+}
+
+.texto > p{
+    margin-top: 30px;
+    font-size: 36px;
+}
+
+/*Imagenes del Footer*/
+
+.imagenes{
+    width: 60vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.iconblanco{
+    width: 150px;
+    height: 150px;
+    align-self: center;
+}
+
+.kanye{
+    align-self: center;
+    width: 400px;
+}
